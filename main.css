@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Gowun Batang", serif;
+    font-weight: 800;
+}
+
+.nav {
+    background-color: #FE656A;
+    width: 100%;
+    height: 70px;
+}
+
+.nav h1 {
+    margin-left: 70px;
+    font-size: 40px;
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+.outer-continer {
+    width: 20%;
+    height: auto;
+    padding: 15px;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    /* display: flex; */
+    vertical-align: top;
+}
+
+.inner-continer {
+    color: white;
+}
+
+.inner-continer h2 {
+    color: #FE656A;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.delete {
+    padding: 5px 20px 5px 20px;
+    margin: 10px 30px 5px;
+    background-color: #FE656A;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+.pop-btn {
+    background-color: #FE656A;
+    font-size: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: none;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+}
+
+.backshodow-continer {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 2;
+
+    display: none;
+
+}
+
+.keynote {
+    background-color: #FE656A;
+    width: 30%;
+    position: absolute;
+    padding: 30px;
+    top: 20%;
+    left: 30%;
+    z-index: 3;
+    border-radius: 10px;
+
+    display: none;
+}
+
+.keynote input {
+    width: 100%;
+    height: 40px;
+    margin: 5px;
+    font-size: 17px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    border-bottom: 2px solid rgb(28, 28, 28);
+}
+
+.keynote textarea {
+    width: 410px;
+    height: 122px;
+    margin: 5px;
+    margin-top: 10px;
+    font-size: 17px;
+    background-color: transparent;
+    padding: 5px;
+    border: 2px solid rgb(28, 28, 28);
+    box-sizing: border-box;
+    padding-top: 20px;
+    outline: none;
+}
+
+.add-btn {
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.cancel-btn {
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    margin-left: 10px;
+}
